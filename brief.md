@@ -46,9 +46,9 @@ Resource: NTIA - The Minimum Elements for a Software Bill of Materials (SBOM) - 
 
 ## Misconception in My Track
 
-A common misconception in cybersecurity is that using antivirus software or a firewall is enough to keep an organisation completely secure. Although these tools are important, they cannot prevent every attack or eliminate all vulnerabilities. The Cybersecurity and Infrastructure Security Agency (CISA) recommends a layered approach to cybersecurity that combines technical controls, secure configurations, regular updates, access management, and user awareness. Organisations should also monitor systems, test security measures, and prepare to respond to incidents. Effective cybersecurity requires continuous risk management rather than relying on a single security tool.
+A common misconception is that installing a security update once means an organisation is fully protected from a vulnerability such as Log4Shell. In reality, teams must first identify all affected applications and software dependencies, including systems that may bundle vulnerable versions of Log4j. They must then apply fixed versions, verify that the updates succeeded, and check for any signs of exploitation. Patching one visible server may not fix every affected component. CISA’s guidance, under the section discussing mitigation and remediation, explains the need to identify affected products and take corrective action. Security therefore requires verification, not just installing an update.
 
-Resource: CISA - Cybersecurity Best Practices - https://www.cisa.gov/topics/cybersecurity-best-practices
+Resource: CISA - Apache Log4j Vulnerability Guidance - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
 
 ## Open Question
 
