@@ -21,9 +21,9 @@ Resource: NIST - Adversarial Machine Learning: A Taxonomy and Terminology of Att
 
 ## Mobile
 
-Mobile applications can contain security weaknesses that expose sensitive information or allow attackers to misuse application features. The OWASP Mobile Application Security Testing Guide (MASTG) provides guidance for testing mobile applications and identifying vulnerabilities. Security testing should examine data storage, authentication, network communication, and the way applications handle sensitive information. Developers should test applications throughout development, fix identified weaknesses, and verify that security controls work as expected. These practices help reduce risks and protect users and their data.
+The OWASP Mobile Application Security Verification Standard (MASVS) defines security requirements for mobile applications. It helps developers and testers assess whether an application meets important security controls, including secure storage, cryptography, authentication, network communication, and platform interaction. Teams use MASVS as a checklist to guide security assessments and identify weaknesses that need further testing or remediation. Applying these requirements during development helps reduce risks to sensitive information and improve mobile application security.
 
-Resource: OWASP - Mobile Application Security Testing Guide (MASTG) - https://mas.owasp.org/MASTG/
+Resource: OWASP - Mobile Application Security Verification Standard (MASVS) - https://mas.owasp.org/MASVS/
 
 
 ## Networking
