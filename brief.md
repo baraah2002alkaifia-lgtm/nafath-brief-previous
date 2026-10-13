@@ -22,7 +22,6 @@ Adversarial machine learning attacks can target different stages of an AI system
 
 Resource: NIST - Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations - https://www.nist.gov/publications/adversarial-machine-learning-taxonomy-and-terminology-attacks-and-mitigations-0
 
-
 ## Mobile
 
 The OWASP Mobile Application Security Verification Standard (MASVS) defines security requirements for mobile applications. It helps developers and testers assess whether an application meets important security controls, including secure storage, cryptography, authentication, network communication, and platform interaction. Teams use MASVS as a checklist to guide security assessments and identify weaknesses that need further testing or remediation. Applying these requirements during development helps reduce risks to sensitive information and improve mobile application security.
