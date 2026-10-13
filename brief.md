@@ -24,10 +24,9 @@ Resource: NIST - Adversarial Machine Learning: A Taxonomy and Terminology of Att
 
 ## Mobile
 
-The OWASP Mobile Application Security Verification Standard (MASVS) defines security requirements for mobile applications. It helps developers and testers assess whether an application meets important security controls, including secure storage, cryptography, authentication, network communication, and platform interaction. Teams use MASVS as a checklist to guide security assessments and identify weaknesses that need further testing or remediation. Applying these requirements during development helps reduce risks to sensitive information and improve mobile application security.
+The OWASP Mobile Application Security Verification Standard (MASVS) defines security requirements for mobile applications. It helps developers and testers assess security controls in areas such as secure storage, cryptography, authentication, network communication, and platform interaction. Teams can use MASVS to guide security testing, identify weaknesses, and determine whether an application meets relevant security requirements. Applying the standard during development helps protect sensitive information and improve mobile application security.
 
 Resource: OWASP - Mobile Application Security Verification Standard (MASVS) - https://mas.owasp.org/MASVS/
-
 
 ## Networking
 
