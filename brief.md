@@ -10,11 +10,19 @@ The Twelve-Factor App methodology recommends storing configuration in environmen
 
 Resource: The Twelve-Factor App - Config - https://www.12factor.net/config
 
-
-
 ## AI
 
+Artificial intelligence systems can be vulnerable to adversarial machine learning attacks. These attacks may manipulate input data or training data to affect a model’s behaviour and results. The National Institute of Standards and Technology (NIST) explains different types of attacks and approaches for mitigating their effects. Organisations should assess AI systems throughout their life cycle, protect training data, test models against potential attacks, and monitor their performance. These measures help reduce security risks and improve the reliability of AI systems used in essential services.
+
+Resource: NIST - Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations - https://www.nist.gov/publications/adversarial-machine-learning-taxonomy-and-terminology-attacks-and-mitigations-0
+
+
 ## Mobile
+
+Mobile applications can contain security weaknesses that expose sensitive information or allow attackers to misuse application features. The OWASP Mobile Application Security Testing Guide (MASTG) provides guidance for testing mobile applications and identifying vulnerabilities. Security testing should examine data storage, authentication, network communication, and the way applications handle sensitive information. Developers should test applications throughout development, fix identified weaknesses, and verify that security controls work as expected. These practices help reduce risks and protect users and their data.
+
+Resource: OWASP - Mobile Application Security Testing Guide (MASTG) - https://mas.owasp.org/MASTG/
+
 
 ## Networking
 
