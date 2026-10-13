@@ -30,7 +30,7 @@ Resource: OWASP - Mobile Application Security Verification Standard (MASVS) - ht
 
 ## Networking
 
-BGP route hijacking occurs when an autonomous system announces incorrect or unauthorised internet routes, potentially diverting traffic through an unintended network. Resource Public Key Infrastructure (RPKI) helps reduce this risk by allowing networks to validate whether a route announcement is authorised by the holder of the relevant IP address resources. However, RPKI does not encrypt traffic or prevent every routing attack, and its protection depends on networks performing route-origin validation. Organisations should combine RPKI validation with other routing security practices.
+BGP route hijacking occurs when an autonomous system announces incorrect or unauthorised internet routes, potentially diverting traffic through an unintended network. Resource Public Key Infrastructure (RPKI) helps reduce this risk by allowing networks to validate whether a route announcement is authorised by the holder of the relevant IP address resources. However, RPKI does not encrypt traffic or prevent every routing attack. Its protection depends on networks performing route-origin validation. Organisations should combine RPKI validation with other routing security practices.
 
 Resource: RIPE NCC - Resource Public Key Infrastructure (RPKI) - https://www.ripe.net/manage-ips-and-asns/resource-management/rpki/
 
