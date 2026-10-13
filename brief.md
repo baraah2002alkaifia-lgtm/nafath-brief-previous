@@ -52,10 +52,7 @@ Resource: CISA - Apache Log4j Vulnerability Guidance - https://www.cisa.gov/news
 
 ## Open Question
 
-How can national service providers balance the use of emerging technologies, such as artificial intelligence and mobile applications, with the need to protect sensitive data and maintain reliable services? What combination of security testing, software transparency, secure configuration, and continuous monitoring would be most effective in reducing risks across the entire service?
-
-Resource: NIST - Cybersecurity Framework (CSF) 2.0 - https://www.nist.gov/cyberframework
-
+How can an organisation reliably identify every application and software dependency affected by a newly discovered vulnerability such as Log4Shell, especially when third-party components are not fully documented?
 
 
 
