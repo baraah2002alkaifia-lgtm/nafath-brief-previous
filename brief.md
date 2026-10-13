@@ -45,4 +45,8 @@ Resource: NTIA - The Minimum Elements for a Software Bill of Materials (SBOM) - 
 
 ## Misconception in My Track
 
+A common misconception in cybersecurity is that using antivirus software or a firewall is enough to keep an organisation completely secure. Although these tools are important, they cannot prevent every attack or eliminate all vulnerabilities. The Cybersecurity and Infrastructure Security Agency (CISA) recommends a layered approach to cybersecurity that combines technical controls, secure configurations, regular updates, access management, and user awareness. Organisations should also monitor systems, test security measures, and prepare to respond to incidents. Effective cybersecurity requires continuous risk management rather than relying on a single security tool.
+
+Resource: CISA - Cybersecurity Best Practices - https://www.cisa.gov/topics/cybersecurity-best-practices
+
 ## Open Question
