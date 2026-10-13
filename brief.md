@@ -36,7 +36,7 @@ Resource: RIPE NCC - Resource Public Key Infrastructure (RPKI) - https://www.rip
 
 ## Cybersecurity
 
-Log4Shell (CVE-2021-44228) was a critical vulnerability in Apache Log4j, a widely used Java logging library. It could allow attackers to execute malicious code remotely on vulnerable systems by sending specially crafted input that Log4j processed. Its severity came from the library’s widespread use and the potential for serious compromise without direct access to the target system. Organisations should update affected Log4j versions to fixed releases, identify vulnerable applications and dependencies, and follow vendor security guidance.
+Log4Shell (CVE-2021-44228) was a critical vulnerability in Apache Log4j, a widely used Java logging library. It could allow attackers to execute malicious code remotely on vulnerable systems by sending specially crafted input that Log4j processed. Its severity came from the library’s widespread use and the potential for serious compromise without direct access to the target system. Organisations should identify affected applications, upgrade vulnerable Log4j versions to fixed releases, and follow vendor security guidance.
 
 Resource: CISA - Apache Log4j Vulnerability Guidance - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
 
