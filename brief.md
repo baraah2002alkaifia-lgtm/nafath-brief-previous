@@ -14,7 +14,7 @@ Resource: The Twelve-Factor App - Config - https://12factor.net/config
 
 ## AI
 
-Artificial intelligence systems can be vulnerable to adversarial machine learning attacks. These attacks may manipulate input data or training data to affect a model’s behaviour and results. The National Institute of Standards and Technology (NIST) explains different types of attacks and approaches for mitigating their effects. Organisations should assess AI systems throughout their life cycle, protect training data, test models against potential attacks, and monitor their performance. These measures help reduce security risks and improve the reliability of AI systems used in essential services.
+Adversarial machine learning attacks can target different stages of an AI system. Evasion attacks manipulate inputs at inference time to make a trained model produce incorrect predictions. In contrast, poisoning attacks manipulate training data or the training process to influence the model’s behaviour. The key difference is that evasion targets how a model responds to inputs, while poisoning affects how it learns. Organisations should test models against adversarial inputs, protect training-data integrity, and monitor model performance.
 
 Resource: NIST - Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations - https://www.nist.gov/publications/adversarial-machine-learning-taxonomy-and-terminology-attacks-and-mitigations-0
 
