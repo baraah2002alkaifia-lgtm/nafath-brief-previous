@@ -26,6 +26,11 @@ Resource: OWASP - Mobile Application Security Testing Guide (MASTG) - https://ma
 
 ## Networking
 
+Network security helps protect data as it travels between systems. The OWASP Transport Layer Protection Cheat Sheet recommends using Transport Layer Security (TLS) correctly to protect communications against eavesdropping and tampering. Organisations should use modern, secure TLS configurations, validate digital certificates, and avoid outdated protocols and weak cipher suites. They should also ensure that sensitive information is transmitted over encrypted connections. These measures help protect user data, maintain communication integrity, and reduce the risk of network-based attacks.
+
+Resource: OWASP - Transport Layer Protection Cheat Sheet - https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html
+
+
 ## Cybersecurity
 
 ## Data
