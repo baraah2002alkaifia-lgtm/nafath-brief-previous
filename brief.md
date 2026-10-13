@@ -33,6 +33,10 @@ Resource: OWASP - Transport Layer Protection Cheat Sheet - https://cheatsheetser
 
 ## Cybersecurity
 
+Secure coding practices help reduce vulnerabilities throughout the software development process. OWASP’s Secure Coding Practices Quick Reference Guide covers important areas such as input validation, authentication, access control, error handling, and data protection. Developers should validate input from untrusted sources, restrict access to authorised users, avoid exposing sensitive information in error messages, and protect data during storage and transmission. Regular code reviews and security testing can help identify weaknesses before applications are deployed. Applying these practices improves software security and helps protect essential digital services.
+
+Resource: OWASP - Secure Coding Practices Quick Reference Guide - https://owasp.org/www-project-secure-coding-practices-quick-reference-guide/
+
 ## Data
 
 ## Misconception in My Track
