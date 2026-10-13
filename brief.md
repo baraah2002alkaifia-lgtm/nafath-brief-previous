@@ -7,9 +7,10 @@ A national service provider depends on secure software, artificial intelligence,
 
 
 ## Software
-The Twelve-Factor App methodology recommends storing configuration in environment variables instead of hard-coding it. Configuration can include database credentials and external service keys. Keeping these values outside the code reduces the risk of exposing secrets when code is shared or published. It also allows settings to change between development and production without changing the application code. Sensitive values must still be protected with appropriate access controls.
 
-Resource: The Twelve-Factor App - Config - https://www.12factor.net/config
+The Twelve-Factor App methodology recommends storing configuration in environment variables instead of hard-coding it in source code. Configuration may include database credentials and external service keys. Keeping these values outside the code reduces the risk of exposing secrets when code is shared or published. It also allows settings to change between development and production without modifying the application. Secrets must still be protected through appropriate access controls and secure deployment practices.
+
+Resource: The Twelve-Factor App - Config - https://12factor.net/config
 
 ## AI
 
