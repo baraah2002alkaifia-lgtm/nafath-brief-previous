@@ -3,7 +3,11 @@ Track: Cybersecurity
 
 ## Overview
 
-A national service provider depends on secure software, artificial intelligence, mobile applications, networks, cybersecurity, and reliable data to deliver trusted services. Each area introduces risks that must be identified and managed. Secure software configuration keeps secrets out of source code and reduces the risk of exposure. AI security addresses attacks that manipulate model inputs or training data. Mobile security verification helps teams assess application weaknesses before release. Network security protects internet traffic from route manipulation and interception. Cybersecurity practices help organisations identify and fix serious software vulnerabilities. Software component transparency helps teams understand dependencies and respond to newly discovered threats. These six areas are connected because a weakness in one component can affect the security and reliability of the entire service. Protecting national services therefore requires verification, monitoring, and coordinated security controls. This mission also examines how software configuration and secret management reduce security risks.
+A national service provider depends on secure software, artificial intelligence, mobile applications, networks, cybersecurity, and reliable data to deliver trusted services. Each area introduces risks that must be identified and managed. Secure software configuration keeps secrets out of source code and reduces the risk of exposure. AI security addresses attacks that manipulate model inputs or training data. Mobile security verification helps teams assess application weaknesses before release.
+
+Network security protects internet traffic from route manipulation and interception. Cybersecurity practices help organisations identify and fix serious software vulnerabilities. Software component transparency helps teams understand dependencies and respond to newly discovered threats. These six areas are connected because a weakness in one component can affect the security and reliability of the entire service.
+
+Protecting national services therefore requires verification, monitoring, and coordinated security controls. This mission also examines the Log4Shell vulnerability and its mitigation.
 
 
 ## Software
