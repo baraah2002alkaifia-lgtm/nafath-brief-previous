@@ -50,3 +50,14 @@ A common misconception in cybersecurity is that using antivirus software or a fi
 Resource: CISA - Cybersecurity Best Practices - https://www.cisa.gov/topics/cybersecurity-best-practices
 
 ## Open Question
+
+How can national service providers balance the use of emerging technologies, such as artificial intelligence and mobile applications, with the need to protect sensitive data and maintain reliable services? What combination of security testing, software transparency, secure configuration, and continuous monitoring would be most effective in reducing risks across the entire service?
+
+Resource: NIST - Cybersecurity Framework (CSF) 2.0 - https://www.nist.gov/cyberframework
+
+
+
+
+
+
+
