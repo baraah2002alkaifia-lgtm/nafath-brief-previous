@@ -40,7 +40,7 @@ Resource: CISA - Apache Log4j Vulnerability Guidance - https://www.cisa.gov/news
 
 ## Data
 
-Software transparency helps organisations understand the components and dependencies used in their applications. The National Telecommunications and Information Administration (NTIA) explains that a Software Bill of Materials (SBOM) records information about software components and their relationships. This information helps organisations identify affected components when new vulnerabilities are discovered and respond more quickly to security risks. An SBOM should include details such as component names, versions, suppliers, and dependency relationships. Keeping this information accurate and up to date supports vulnerability management and improves software supply chain security. However, an SBOM does not eliminate vulnerabilities on its own; organisations must use it alongside security testing and regular monitoring.
+A Software Bill of Materials (SBOM) is a structured inventory of software components and their relationships. It helps organisations identify affected dependencies when vulnerabilities are discovered and improve software supply chain security. The NTIA identifies minimum SBOM elements including supplier name, component name, component version, other unique identifiers, dependency relationships, SBOM author, and timestamp. Keeping an SBOM accurate and up to date helps teams understand what software they use and respond to security risks. However, an SBOM does not remove vulnerabilities; it supports security analysis and remediation.
 
 Resource: NTIA - The Minimum Elements for a Software Bill of Materials (SBOM) - https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
 
