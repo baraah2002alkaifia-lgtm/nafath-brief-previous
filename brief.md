@@ -39,6 +39,10 @@ Resource: OWASP - Secure Coding Practices Quick Reference Guide - https://owasp.
 
 ## Data
 
+Software transparency helps organisations understand the components and dependencies used in their applications. The National Telecommunications and Information Administration (NTIA) explains that a Software Bill of Materials (SBOM) records information about software components and their relationships. This information helps organisations identify affected components when new vulnerabilities are discovered and respond more quickly to security risks. An SBOM should include details such as component names, versions, suppliers, and dependency relationships. Keeping this information accurate and up to date supports vulnerability management and improves software supply chain security. However, an SBOM does not eliminate vulnerabilities on its own; organisations must use it alongside security testing and regular monitoring.
+
+Resource: NTIA - The Minimum Elements for a Software Bill of Materials (SBOM) - https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
+
 ## Misconception in My Track
 
 ## Open Question
