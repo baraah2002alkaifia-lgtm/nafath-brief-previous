@@ -48,15 +48,11 @@ Resource: NTIA - The Minimum Elements for a Software Bill of Materials (SBOM) - 
 
 ## Misconception in My Track
 
-A common misconception is that installing a security update once means an organisation is fully protected from a vulnerability such as Log4Shell. In reality, teams must first identify all affected applications and software dependencies, including systems that may bundle vulnerable versions of Log4j. They must then apply fixed versions, verify that the updates succeeded, and check for any signs of exploitation. Patching one visible server may not fix every affected component. CISA’s guidance, under the section discussing mitigation and remediation, explains the need to identify affected products and take corrective action. Security therefore requires verification, not just installing an update.
-
-Resource: CISA - Apache Log4j Vulnerability Guidance - https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-356a
+A common misconception is that installing a security update once means an organisation is fully protected from a vulnerability such as Log4Shell. In reality, teams must identify all affected applications and software dependencies, apply the appropriate fixes, and verify that the mitigation worked. Some systems may contain vulnerable versions of Log4j through third-party components, making them difficult to identify. Updating one visible server may not fix every affected component. CISA’s advisory explains these requirements in the “Mitigations” section, which recommends identifying vulnerable assets, applying patches, and verifying that mitigation has succeeded.
 
 ## Open Question
 
 How can an organisation reliably identify every application and software dependency affected by a newly discovered vulnerability such as Log4Shell, especially when third-party components are not fully documented?
-
-
 
 
 
