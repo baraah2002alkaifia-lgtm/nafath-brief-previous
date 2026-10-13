@@ -9,7 +9,6 @@ Network security protects internet traffic from route manipulation and intercept
 
 Protecting national services therefore requires verification, monitoring, and coordinated security controls. This mission also examines the Log4Shell vulnerability and its mitigation.
 
-
 ## Software
 
 The Twelve-Factor App methodology recommends storing configuration in environment variables rather than hard-coding it in source code. Configuration may include database credentials and external service keys. Keeping these values outside the code reduces the risk of exposing them when code is shared or published. However, environment variables alone do not guarantee security; access controls and secure deployment practices are also necessary to protect sensitive values.
@@ -42,18 +41,14 @@ Resource: CISA - Apache Log4j Vulnerability Guidance - https://www.cisa.gov/news
 
 ## Data
 
-A Software Bill of Materials (SBOM) is a structured inventory of software components and their relationships. It helps organisations identify affected dependencies when vulnerabilities are discovered and improve software supply chain security. The NTIA identifies minimum SBOM elements including supplier name, component name, component version, other unique identifiers, dependency relationships, SBOM author, and timestamp. Keeping an SBOM accurate and up to date helps teams understand what software they use and respond to security risks. However, an SBOM does not remove vulnerabilities; it supports security analysis and remediation.
+A Software Bill of Materials (SBOM) is a structured inventory of software components and their relationships. It helps organisations identify dependencies affected by newly discovered vulnerabilities. The NTIA’s minimum elements include supplier name, component name and version, unique identifiers, dependency relationships, SBOM author, and timestamp. Keeping an SBOM accurate and current helps teams understand what software they use and respond to security risks. An SBOM does not remove vulnerabilities; it supports analysis and remediation.
 
 Resource: NTIA - The Minimum Elements for a Software Bill of Materials (SBOM) - https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
 
 ## Misconception in My Track
 
-A common misconception is that installing a security update once means an organisation is fully protected from a vulnerability such as Log4Shell. In reality, teams must identify all affected applications and software dependencies, apply the appropriate fixes, and verify that the mitigation worked. Some systems may contain vulnerable versions of Log4j through third-party components, making them difficult to identify. Updating one visible server may not fix every affected component. CISA’s advisory explains these requirements in the “Mitigations” section, which recommends identifying vulnerable assets, applying patches, and verifying that mitigation has succeeded.
+A common misconception is that installing a security update once means an organisation is fully protected from a vulnerability such as Log4Shell. In reality, teams must identify all affected applications and software dependencies, apply the appropriate fixes, and verify that the mitigation worked. Some systems may contain vulnerable versions of Log4j through third-party components, making them difficult to identify. Updating one visible server may not fix every affected component. CISA’s advisory addresses mitigation in its “Mitigations” section, which discusses identifying vulnerable assets and applying appropriate corrective actions.
 
 ## Open Question
 
 How can an organisation reliably identify every application and software dependency affected by a newly discovered vulnerability such as Log4Shell, especially when third-party components are not fully documented?
-
-
-
-
