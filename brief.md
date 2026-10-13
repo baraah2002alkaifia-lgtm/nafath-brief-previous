@@ -12,7 +12,7 @@ Protecting national services therefore requires verification, monitoring, and co
 
 ## Software
 
-The Twelve-Factor App methodology recommends storing configuration in environment variables instead of hard-coding it in source code. Configuration may include database credentials and external service keys. Keeping these values outside the code reduces the risk of exposing secrets when code is shared or published. It also allows settings to change between development and production without modifying the application. Secrets must still be protected through appropriate access controls and secure deployment practices.
+The Twelve-Factor App methodology recommends storing configuration in environment variables rather than hard-coding it in source code. Configuration may include database credentials and external service keys. Keeping these values outside the code reduces the risk of exposing them when code is shared or published. However, environment variables alone do not guarantee security; access controls and secure deployment practices are also necessary to protect sensitive values.
 
 Resource: The Twelve-Factor App - Config - https://12factor.net/config
 
